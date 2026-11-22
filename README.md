@@ -26,3 +26,25 @@ New items go in a `Backoffice` folder, with a subfolder per type and one for sha
 Thank you to [Jacob](https://github.com/iOvergaard) for his package [Lexicon](https://marketplace.umbraco.com/package/umbraco.community.lexicon), which inspired this one.
 
 ## Screenshots
+
+**The same page for an editor with an English backoffice, and one with a Japanese backoffice.**
+
+![A content page with English labels](assets/before.PNG)
+
+![The same content page with Japanese labels](assets/after.PNG)
+
+**Settings ▸ Advanced ▸ Auto Localizer lists every type and how many of its labels are translatable.**
+
+![The Auto Localizer overview](assets/overview.PNG)
+
+**Pick the labels to make translatable.**
+
+![The Make labels translatable sidebar](assets/localize-modal.element.PNG)
+
+**The labels now point to dictionary items.**
+
+![A document type with converted labels](assets/document-type.PNG)
+
+**A dictionary item's Usage tab shows which types use it.**
+
+![The Usage tab on a dictionary item](assets/usage.PNG)

@@ -23,6 +23,29 @@
         "EasyEntityFlags"
     ],
     "Screenshots": [
-
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/before.PNG",
+            "Caption": "A content page for an editor with an English backoffice"
+        },
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/after.PNG",
+            "Caption": "The same page for an editor with a Japanese backoffice"
+        },
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/overview.PNG",
+            "Caption": "Every type and how many of its labels are translatable"
+        },
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/localize-modal.element.PNG",
+            "Caption": "Pick the labels to make translatable"
+        },
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/document-type.PNG",
+            "Caption": "The labels now point to dictionary items"
+        },
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/usage.PNG",
+            "Caption": "A dictionary item's Usage tab shows which types use it"
+        }
     ]
 }

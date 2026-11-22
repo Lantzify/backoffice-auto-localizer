@@ -9,7 +9,7 @@
       "type": "bundle",
       "alias": "BackofficeAutoLocalizer.Bundle",
       "name": "Backoffice Auto Localizer Bundle",
-      "js": "/App_Plugins/BackofficeAutoLocalizer/backoffice-auto-localizer.js"
+      "js": "/App_Plugins/backoffice-auto-localizer/backoffice-auto-localizer.js"
     }
   ]
 }
