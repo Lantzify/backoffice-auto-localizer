@@ -1,0 +1,45 @@
+name: Release
+on:
+  release:
+    types:
+      - published
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  release_name:
+    name: Publish NuGet Package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: 'src/backoffice-auto-localizer/Client/package-lock.json'
+      - name: Install frontend dependencies
+        run: npm ci
+        working-directory: src/backoffice-auto-localizer/Client
+      
+      - name: Build frontend assets
+        run: npm run build
+        working-directory: src/backoffice-auto-localizer/Client
+
+      - name: Run tests
+        run: dotnet test --configuration Release src/backoffice-auto-localizer.Tests
+
+      - name: Build project
+        run: dotnet build --configuration Release src/backoffice-auto-localizer
+
+      - name: Package files
+        run: dotnet pack --configuration Release  src/backoffice-auto-localizer /p:Version=${{github.ref_name}}
+        
+      - name: NuGet login (OIDC → temp API key)
+        uses: NuGet/login@v1
+        id: login
+        with:
+          user: ${{secrets.NUGET_USER}}
+
+      - name: Publish the package
+        run: dotnet nuget push src/backoffice-auto-localizer/build/Release/backoffice-auto-localizer.${{github.ref_name}}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{steps.login.outputs.NUGET_API_KEY}}

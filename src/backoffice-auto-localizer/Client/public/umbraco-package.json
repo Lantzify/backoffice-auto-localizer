@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../backoffice-auto-localizer.Web/umbraco-package-schema.json",
+  "id": "BackofficeAutoLocalizer",
+  "name": "Backoffice Auto Localizer",
+  "version": "0.1.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "type": "bundle",
+      "alias": "BackofficeAutoLocalizer.Bundle",
+      "name": "Backoffice Auto Localizer Bundle",
+      "js": "/App_Plugins/BackofficeAutoLocalizer/backoffice-auto-localizer.js"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+		<PropertyGroup>
+				<RootNamespace>BackofficeAutoLocalizer</RootNamespace>
+				<TargetFramework>net10.0</TargetFramework>
+				<StaticWebAssetBasePath>App_Plugins/backoffice-auto-localizer</StaticWebAssetBasePath>
+				<ImplicitUsings>enable</ImplicitUsings>
+				<Nullable>enable</Nullable>
+		</PropertyGroup>
+
+		<ItemGroup>
+				<PackageReference Include="Umbraco.Cms.Api.Management" Version="17.0.0" />
+				<PackageReference Include="Umbraco.Cms.Web.Website" Version="17.0.0" />
+				<InternalsVisibleTo Include="backoffice-auto-localizer.Tests" />
+		</ItemGroup>
+
+		<PropertyGroup>
+				<PackageId>BackofficeAutoLocalizer</PackageId>
+				<Version>17.0.0</Version>
+				<Title>Backoffice Auto Localizer</Title>
+				<Authors>Lantzify</Authors>
+				<PackageLicenseExpression>MIT</PackageLicenseExpression>
+				<PackageProjectUrl>https://github.com/Lantzify/backoffice-auto-localizer</PackageProjectUrl>
+				<RepositoryUrl>https://github.com/Lantzify/backoffice-auto-localizer</RepositoryUrl>
+				<Description>Make the Umbraco backoffice truly multilingual. Turn document type labels into dictionary items, so every editor sees them in their own language.</Description>
+				<Summary>Make the Umbraco backoffice truly multilingual. Turn document type labels into dictionary items, so every editor sees them in their own language.</Summary>
+				<PackageTags>umbraco dictionaries package umbraco-marketplace</PackageTags>
+				<EmbedUntrackedSources>true</EmbedUntrackedSources>
+				<IncludeSymbols>true</IncludeSymbols>
+				<PackageReadmeFile>umbraco-marketplace-readme.md</PackageReadmeFile>
+				<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+				<ContentTargetFolders>content</ContentTargetFolders>
+
+				<PackageOutputPath>build/Release</PackageOutputPath>
+
+		</PropertyGroup>
+
+		<ItemGroup>
+			<None Include="..\umbraco-marketplace-readme.md" Pack="true" PackagePath="\" />
+		</ItemGroup>
+
+</Project>

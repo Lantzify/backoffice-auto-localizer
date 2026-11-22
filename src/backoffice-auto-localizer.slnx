@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="backoffice-auto-localizer.Tests/backoffice-auto-localizer.Tests.csproj" />
+  <Project Path="backoffice-auto-localizer.Web/backoffice-auto-localizer.Web.csproj" />
+  <Project Path="backoffice-auto-localizer/backoffice-auto-localizer.csproj" />
+</Solution>
