@@ -37,7 +37,7 @@
 		</PropertyGroup>
 
 		<ItemGroup>
-			<None Include="..\umbraco-marketplace-readme.md" Pack="true" PackagePath="\" />
+			<None Include="..\..\umbraco-marketplace-readme.md" Pack="true" PackagePath="\" />
 		</ItemGroup>
 
 </Project>
