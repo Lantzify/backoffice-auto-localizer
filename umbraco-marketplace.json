@@ -36,6 +36,10 @@
             "Caption": "Every type and how many of its labels are translatable"
         },
         {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/entity-action.PNG",
+            "Caption": "Entity action"
+        },
+        {
             "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/localize-modal.element.PNG",
             "Caption": "Pick the labels to make translatable"
         },

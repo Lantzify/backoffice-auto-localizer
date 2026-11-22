@@ -1,20 +1,12 @@
 
 **Make the Umbraco backoffice truly multilingual.** Turn document type labels into dictionary items, so every editor sees them in their own language.
 
-## How keys are named
+## Good to know
 
-Each label gets a key from its type alias and the alias of the property, tab or group it belongs to:
+- **Reload the backoffice after a change.** Translations load when the backoffice starts, so new or edited dictionary items show up after a browser refresh.
+- **Editors see their own language only if the site has it.** If an editor's backoffice language isn't one of the site's languages, they see the default language.
 
-```
-Backoffice_{typeAlias}_typeName
-Backoffice_{typeAlias}_typeDescription
-Backoffice_{typeAlias}_{propertyAlias}
-Backoffice_{typeAlias}_{propertyAlias}_description
-Backoffice_{typeAlias}_tab_{tabAlias}
-Backoffice_{typeAlias}_group_{groupAlias}
-```
 
-New items go in a `Backoffice` folder, with a subfolder per type and one for shared items.
 
 ## Acknowledgements
 

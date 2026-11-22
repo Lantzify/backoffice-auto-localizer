@@ -22,8 +22,8 @@
 				<PackageLicenseExpression>MIT</PackageLicenseExpression>
 				<PackageProjectUrl>https://github.com/Lantzify/backoffice-auto-localizer</PackageProjectUrl>
 				<RepositoryUrl>https://github.com/Lantzify/backoffice-auto-localizer</RepositoryUrl>
-				<Description>Make the Umbraco backoffice truly multilingual. Turn document type labels into dictionary items, so every editor sees them in their own language.</Description>
-				<Summary>Make the Umbraco backoffice truly multilingual. Turn document type labels into dictionary items, so every editor sees them in their own language.</Summary>
+				<Description>Make the Umbraco backoffice truly multilingual. Turn document type labels into dictionary items in a few clicks, so every editor sees them in their own language.</Description>
+				<Summary>Make the Umbraco backoffice truly multilingual. Turn document type labels into dictionary items in a few clicks, so every editor sees them in their own language.</Summary>
 				<PackageTags>umbraco dictionaries package umbraco-marketplace</PackageTags>
 				<EmbedUntrackedSources>true</EmbedUntrackedSources>
 				<IncludeSymbols>true</IncludeSymbols>

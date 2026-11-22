@@ -2,7 +2,7 @@
   "$schema": "../../../backoffice-auto-localizer.Web/umbraco-package-schema.json",
   "id": "BackofficeAutoLocalizer",
   "name": "Backoffice Auto Localizer",
-  "version": "0.1.0",
+  "version": "17.0.0",
   "allowTelemetry": true,
   "extensions": [
     {
