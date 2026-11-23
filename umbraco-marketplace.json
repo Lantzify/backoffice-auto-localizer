@@ -13,15 +13,6 @@
     "Title": "Backoffice Auto Localizer",
     "Description": "Make the Umbraco backoffice truly multilingual. Turn document type labels into dictionary items, so every editor sees them in their own language.",
     "IssueTrackerUrl": "https://github.com/Lantzify/backoffice-auto-localizer/issues",
-    "PackagesByAuthor": [
-        "AutoDictionaries",
-        "AutoBlockList",
-        "UmbracoNaviHideIcon",
-        "uSupport",
-        "uSupport.Automate",
-        "uSupport.uSync",
-        "EasyEntityFlags"
-    ],
     "Screenshots": [
         {
             "ImageUrl": "https://raw.githubusercontent.com/Lantzify/backoffice-auto-localizer/master/assets/before.PNG",
